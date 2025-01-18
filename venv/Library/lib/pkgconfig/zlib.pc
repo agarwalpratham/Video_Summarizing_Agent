@@ -1,0 +1,13 @@
+prefix=C:/personal/Video_Sum/venv/Library
+exec_prefix=C:/personal/Video_Sum/venv/Library
+libdir=C:/personal/Video_Sum/venv/Library/lib
+sharedlibdir=C:/personal/Video_Sum/venv/Library/lib
+includedir=C:/personal/Video_Sum/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
